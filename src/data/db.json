@@ -1,0 +1,83 @@
+{
+    "repo":[
+        {
+            "id":1,
+            "repo":0,
+            "account-id":1
+        },
+        {
+            "id":2,
+            "repo":0,
+            "account-id":2
+        }
+
+    ],
+    "account":[
+        {
+            "id":1,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":2,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":3,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":4,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":5,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":6,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":7,
+            "head":"maaş",
+            "price":2000,
+            "direction":1,
+            "decription":"maaşın tamamı alındı",
+            "date":"21.12.2021"
+        },
+        {
+            "id":8,
+            "head":"market alışverişi",
+            "price":2000,
+            "direction":1,
+            "decription":"yemek",
+            "date":"21.12.2021"
+        }
+    ]
+     
+     
+}
