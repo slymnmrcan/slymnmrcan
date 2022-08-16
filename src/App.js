@@ -10,14 +10,16 @@ import {
   Link
 } from "react-router-dom";
 import Update from "./components/update";
+import {useState} from 'react'
 
 function App() {
+  const [bank, setBank] = useState()
   return (
     <div>
       <BrowserRouter>
             <Routes>
                 <Route path="/Add" element={<Add />}></Route>
-                <Route path="/" element={<Main />}></Route>
+                <Route bank={bank} path="/" element={<Main />}></Route>
                 <Route path="/Update" element={<Update />}></Route>
             </Routes>
       </BrowserRouter>

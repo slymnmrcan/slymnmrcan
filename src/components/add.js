@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{useState,useEffect} from 'react';
 import { Form, Button } from 'react-bootstrap'
 import {
   BrowserRouter,
@@ -8,23 +8,35 @@ import {
 } from "react-router-dom";
 
 const Add = () => {
+  const [form, setForm] = useState([]);
+  const [id, setId] = useState();
+
   const formSubmit = (e) => {
     e.preventDefault();
+    setForm({...form , [e.target.name]:e.target.value})
   }
+  useEffect(() => {
+    console.log("state değişti")
+  }, [form]);
   return (
-    <div className='m-5'>
+    <div className='container m-5'>
       <Link to={"/"} className="btn btn-primary"> Anasayfa
       </Link>
       <h1 className='text-center'>Cari Girişi</h1>
       <Form className=''>
+      <Form.Group className="mb-3" controlId="formBasicEmail">
+          <Form.Label>id</Form.Label>
+          <Form.Control type="number" name="id" placeholder="Başlık" />
+        </Form.Group>
+
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Başlık</Form.Label>
-          <Form.Control type="email" placeholder="Başlık" />
+          <Form.Control type="email" name="email" placeholder="Başlık" />
         </Form.Group>
 
         <Form.Group className="mb-3">
           <Form.Label>Fiyat</Form.Label>
-          <Form.Control type="text" placeholder="fiyat" />
+          <Form.Control type="number" placeholder="fiyat" />
         </Form.Group>
 
         <Form.Group className="mb-3 col-2">

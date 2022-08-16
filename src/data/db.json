@@ -1,72 +1,58 @@
-{
-    "repo":[
+    [
         {
             "id":1,
-            "repo":0,
-            "account-id":1
-        },
-        {
-            "id":2,
-            "repo":0,
-            "account-id":2
-        }
-
-    ],
-    "account":[
-        {
-            "id":1,
-            "head":"maaş",
-            "price":2000,
-            "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "head":"maaş ödemesi",
+            "price":12000,
+            "direction":0,
+            "description":"maaşın tamamı alındı",
             "date":"21.12.2021"
         },
         {
             "id":2,
-            "head":"maaş",
-            "price":2000,
+            "head":"kira",
+            "price":5000,
             "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "description":"kira ödemesi",
             "date":"21.12.2021"
         },
         {
             "id":3,
-            "head":"maaş",
+            "head":"su faturası",
             "price":2000,
             "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "description":"su faturası ödendi",
             "date":"21.12.2021"
         },
         {
             "id":4,
-            "head":"maaş",
+            "head":"elektrik faturası",
             "price":2000,
             "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "description":"elektrik faturası ödendi",
             "date":"21.12.2021"
         },
         {
             "id":5,
-            "head":"maaş",
-            "price":2000,
+            "head":"internet faturası",
+            "price":60,
             "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "description":"fatura ödendi",
             "date":"21.12.2021"
         },
         {
             "id":6,
-            "head":"maaş",
-            "price":2000,
+            "head":"doğal gaz faturası",
+            "price":200,
             "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "description":"fatura ödendi",
             "date":"21.12.2021"
         },
         {
             "id":7,
-            "head":"maaş",
-            "price":2000,
+            "head":"mutfak masrafı",
+            "price":300,
             "direction":1,
-            "decription":"maaşın tamamı alındı",
+            "description":"alışveriş yapıldı",
             "date":"21.12.2021"
         },
         {
@@ -74,10 +60,15 @@
             "head":"market alışverişi",
             "price":2000,
             "direction":1,
-            "decription":"yemek",
+            "description":"yemek",
+            "date":"21.12.2021"
+        },
+        {
+            "id":8,
+            "head":"market alışverişi",
+            "price":200,
+            "direction":0,
+            "description":"yemek",
             "date":"21.12.2021"
         }
     ]
-     
-     
-}

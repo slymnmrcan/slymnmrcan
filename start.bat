@@ -1,0 +1,3 @@
+
+cls
+npm start
